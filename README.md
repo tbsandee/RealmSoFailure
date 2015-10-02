@@ -1,5 +1,6 @@
 # RealmSoFailure
 Demonstrates failure to properly include .so included in library JAR files with Android Gradle Plugin 1.4.0-beta[1-4].
+This issue is cross-linked in this bug report: https://code.google.com/p/android/issues/detail?id=188237
 
 Change the plugin version to 1.3.1 and all works fine.
 
