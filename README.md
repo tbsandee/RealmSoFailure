@@ -4,10 +4,14 @@ Demonstrates failure to properly include .so included in AAR files with Android 
 Change the plugin version to 1.3.1 and all works fine.
 
 The dependency added is this:
-```compile 'io.realm:realm-android:0.82.2'```
+```
+compile 'io.realm:realm-android:0.82.2'
+```
 
 and the code to trigger the failure is in `MainActivity.java`:
-```Realm.getInstance(this);```
+```
+Realm.getInstance(this);
+```
 
 Here's the error:
 
