@@ -3,6 +3,8 @@ Demonstrates failure to properly include .so included in AAR files with Android 
 
 Change the plugin version to 1.3.1 and all works fine.
 
+It's a generic boilerplate project with one added dependency, a line of code.
+
 The dependency added is this:
 ```
 compile 'io.realm:realm-android:0.82.2'
